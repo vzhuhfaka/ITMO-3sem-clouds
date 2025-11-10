@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  nginx-app:
+    image: nginx:1.25
+    environment:
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

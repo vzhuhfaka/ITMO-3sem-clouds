@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: psql-cont
+    environment:
+      POSTGRES_PASSWORD: mypassword123
+      POSTGRES_USER: admin
+    ports:
+      - "5432:5432"
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-cont
+    environment:
+      DB_PASSWORD: mypassword123
+    depends_on:
+      - postgres
