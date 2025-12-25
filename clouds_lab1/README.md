@@ -1,6 +1,8 @@
 **Отчет по облачной лабе 1 (Вариант 2)**<br>
 **Выполнил Останин Андрей**
 
+Ссылка на google drive с .csv файлом: https://drive.google.com/file/d/1n0id51ykyfj6n332ehDyMfqkmV_-PtkE/view?usp=sharing
+
 Действия которые привели к результату:
 Сначала импортировал исходные данные из .csv в .xlsx
 
@@ -29,3 +31,4 @@ Service Usage Type: Dedicated Host Usage
 
 **Источники**
 - https://docs.aws.amazon.com/
+
