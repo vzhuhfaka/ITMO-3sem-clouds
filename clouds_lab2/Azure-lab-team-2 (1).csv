@@ -1,0 +1,37 @@
+IT Tower,Service Family,Service Type,Service Sub Type,Service Usage Type,Meter Category,Meter Sub-Category,Meter Name,Consumed Service
+Storage,Storage&Content Delivery,Azure Data Management,Geo-Replication,Geo-Replicated Data Transfer,Data Management,,Geo-Replicated Data Transfer%,
+Storage,Storage&Content Delivery,Azure Data Management,Geo-Redundant,Geo-Redundant Storage,Data Management,Geo Redundant,,
+Storage,Storage&Content Delivery,Azure Data Management,Standard,Standard Storage,Data Management,,,
+Storage,Storage&Content Delivery,Azure Backup,Geo-Redundant Storage,Block Blob Storage (GB),Backup,Geo Redundant Storage,Standard IO - Block Blob (GB),Microsoft.RecoveryServices
+Storage,Storage&Content Delivery,Azure Backup,Geo-Redundant Storage,GRS Data Stored,Backup,,GRS Data Stored,Microsoft.RecoveryServices
+Storage,Storage&Content Delivery,Azure Backup,VM Protection,Protected VM Instances,Backup,,%Azure VM%Protected Instances,Microsoft.RecoveryServices
+Storage,Storage&Content Delivery,Azure Data Lake Store,Storage,Data at Rest (GB),Business Analytics,Data Lake Store,Data at Rest (GB),Microsoft.DataLakeStore
+Storage,Storage&Content Delivery,Azure Data Lake Store,Transactions,Transaction Operations,Business Analytics,Data Lake Store,Transactions%,Microsoft.DataLakeStore
+Networking,Networking,Azure Bastion,Basic,Basic Service,Azure Bastion,,Basic,Microsoft.Network
+Networking,Networking,Azure Bastion,Data Transfer,Data Transfer,Azure Bastion,,Data Transfer%,Microsoft.Network
+Database,Database,Azure Virtual Machines,SQL Server,SQL Server Compute Hours,Virtual Machines,SQL Server%,Compute Hours,
+Compute,Compute,Azure Virtual Machines,Licenses,VM Licenses,Virtual Machines Licenses,,,
+Compute,Compute,Azure Virtual Machines,Linux VMs,RHEL Compute Hours,Virtual Machines,Red Hat Enterprise Linux%,Compute Hours,%Compute
+Compute,Compute,Azure Virtual Machines,Windows VMs,BizTalk Server Compute Hours,Virtual Machines,BizTalk Server,Compute Hours,%Compute
+Compute,Compute,Azure Virtual Machines,Windows VMs,BizTalk Server Standard Compute Hours,Virtual Machines,BizTalk Server Standard%,Compute Hours,%Compute
+Compute,Compute,Azure Virtual Machines,Development,Java Dev Environment Compute Hours,Virtual Machines,Java Development Environment%,Compute Hours,Unassigned
+Compute,Compute,Azure Virtual Machines,Reserved Instances,Reserved VM Compute Hours,Virtual Machines,Reservation%,Compute Hours,%Compute
+Cloud Services,Artificial Intelligence,Azure Machine Learning,Production API,Web API Calls,Machine Learning Studio,Production Web API,,Microsoft.MachineLearning
+Cloud Services,Application Services,Azure API Management,Developer,Developer Tier,API Management,API Management,Developer,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Standard,Standard Tier,API Management,API Management,Standard,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Basic,Basic Tier,API Management,API Management,Basic,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Premium,Premium Tier,API Management,API Management,Premium,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Consumption,API Calls Consumption,API Management,,Consumption Calls,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Capacity,Basic Units,API Management,,Basic Units,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Capacity,Developer Units,API Management,,Developer Units,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Capacity,Premium Units,API Management,,Premium Units,Microsoft.ApiManagement
+Cloud Services,Application Services,Azure API Management,Capacity,Standard Units,API Management,,Standard Units,Microsoft.ApiManagement
+Cloud Services,Management Tools,Azure Monitor,Notifications,Webhook Notifications,Azure Monitor,Notifications,Webhook,microsoft.insights
+Cloud Services,Management Tools,Azure Monitor,Notifications,Email Notifications,Azure Monitor,Notifications,Email,microsoft.insights
+Cloud Services,Business Analytics,Azure HDInsight,Compute,Compute Hours,Business Analytics,,Compute Hours,Microsoft.HDInsight
+Cloud Services,Business Analytics,Azure Data Factory,Data Movement,Cloud Data Movement,Business Analytics,Data Factory,Data Movement Cloud,Microsoft.DataFactory
+Cloud Services,Business Analytics,Azure Data Factory,Data Movement,On-Premises Data Movement,Business Analytics,Data Factory,Data Movement On Premises,Microsoft.DataFactory
+Cloud Services,Business Analytics,Azure Data Factory,Activities,High Frequency Cloud Activity,Business Analytics,Data Factory,High Frequency Cloud Activity,Microsoft.DataFactory
+Cloud Services,Business Analytics,Azure Data Factory,Activities,High Frequency On-Premises Activity,Business Analytics,Data Factory,High Frequency On Premises Activity,Microsoft.DataFactory
+Cloud Services,Business Analytics,Azure Data Factory,Activities,Low Frequency On-Premises Activity,Business Analytics,Data Factory,Low Frequency On Premises Activity,Microsoft.DataFactory
+Cloud Services,Business Analytics,Azure Data Factory,Activities,Low Frequency Cloud Activity,Business Analytics,Data Factory,Low Frequency Cloud Activity,Microsoft.DataFactory
